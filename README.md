@@ -13,4 +13,4 @@ Here is my Portfolio as Data Analyst, please check it out!
 
 # Deck :
 
- <a href="https://drive.google.com/file/d/1quW1GQG0w6rjmKBFLcfa-DslRvOqc3Bp/view?usp=sharing"> Statistics and Spreadsheets</a>
+ <a href="https://drive.google.com/file/d/1VwdgpXclitf_vsedYkY4XBJS0nhf9yR9/view?usp=sharing"> Statistics and Spreadsheets</a>
