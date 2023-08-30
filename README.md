@@ -20,7 +20,7 @@ Here is my Portfolio as Data Analyst, please check it out!
 
 ## Deck :
 
-<a href="https://drive.google.com/file/d/1JESJkyLBkRCkoLLWaVGEuSkzCBj6Ybih/view?usp=sharing"> Statistics and Spreadsheets</a>
+<a href="https://drive.google.com/file/d/1JESJkyLBkRCkoLLWaVGEuSkzCBj6Ybih/view?usp=sharing"> Correlation and Regression</a>
 
 --
 
