@@ -30,4 +30,8 @@ Here is my Portfolio as Data Analyst, please check it out!
 - SQL Window Function
 - CTE
 
+ ## Questions :
+
+1. <a href="https://console.cloud.google.com/bigquery?sq=279153568610:764efbf053d540869102bfd0a85866d4"> Find the product category that has the most SKU variations inputted to the system in 2019?</a>
+
  ## Deck :
