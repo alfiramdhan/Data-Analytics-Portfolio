@@ -9,18 +9,14 @@ Here is my Portfolio as Data Analyst, please check it out!
 - Data Visualization;
 - Gathering Insights;
 - A/B Testing
+- Correlation Analysis
+- Regression Linear
 
  ## Deck :
 
  <a href="https://drive.google.com/file/d/1Ya5wfJk9Q77nLF0vMskuPhKFsJqB6nHB/view?usp=sharing"> Statistics and Spreadsheets</a>
 
-# Spreadsheet Skill sets :
-- Correlation Analysis
-- Regression Linear
-
-## Deck :
-
-<a href="https://drive.google.com/file/d/1fEVGO1EbcUoY1nMmL1tfLzbQz9l4Dr7-/view?usp=share_link"> Correlation and Regression</a>
+ <a href="https://drive.google.com/file/d/1fEVGO1EbcUoY1nMmL1tfLzbQz9l4Dr7-/view?usp=share_link"> Correlation and Regression</a>
 
 ----
 
