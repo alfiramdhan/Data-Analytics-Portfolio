@@ -48,6 +48,7 @@ Here is my Portfolio as Data Analyst, please check it out!
 - 25 to 34
 - 35 to 54
 - 55 and above
+
 Can you identify the top 1 combination of age group, gender, and country that contributed the highest number of buyers in 2021? How much percentage contribute to all buyers?</a>
 
  ## Deck :
