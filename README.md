@@ -69,4 +69,22 @@ Can you identify the top 1 combination of age group, gender, and country that co
 - Cluster Analysis
 
  ## Deck :
+ <a href="https://drive.google.com/file/d/17IxAPQefsF958EC9zMwnFTwscWSpDsA_/view?usp=share_link"> Customer Segmentation</a>
+
+----
+
+# Dataviz using Tableau:
+
+- Connect and combine/ join datasets
+- Data formatting
+- Visualization
+- Calculated field
+- Interactive Dashboard
+
+ ## Deck :
  
+
+----
+
+# Project Based Analytics
+ <a href="https://drive.google.com/file/d/1_eyCvWRKKPaKEyyBk32ru90UqPDU4jc8/view?usp=sharing"> Resort & City Hotel Performance Analysis</a>
