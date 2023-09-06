@@ -81,8 +81,9 @@ Can you identify the top 1 combination of age group, gender, and country that co
 - Calculated field
 - Interactive Dashboard
 
- ## Deck :
- 
+ ## Dashboard :
+ <a href="https://lookerstudio.google.com/reporting/653b8112-1059-42a9-92d2-ebf8ce79b3d5"> Executive Dashboard - Looker Studio</a>
+ <a href="https://public.tableau.com/views/W10W11_alfiana_ramdhan_intermediate/SambaDashboard?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link"> Executive Dashboard - Tableau</a>
 
 ----
 
