@@ -14,9 +14,9 @@ Here is my Portfolio as Data Analyst, please check it out!
 
  ## Deck :
 
- <a href="https://drive.google.com/file/d/1Ya5wfJk9Q77nLF0vMskuPhKFsJqB6nHB/view?usp=sharing"> Spreadsheets and A/B Testing</a>
+ 1. <a href="https://drive.google.com/file/d/1Ya5wfJk9Q77nLF0vMskuPhKFsJqB6nHB/view?usp=sharing"> Spreadsheets and A/B Testing</a>
 
- <a href="https://drive.google.com/file/d/1fEVGO1EbcUoY1nMmL1tfLzbQz9l4Dr7-/view?usp=share_link"> Correlation and Regression</a>
+ 2. <a href="https://drive.google.com/file/d/1fEVGO1EbcUoY1nMmL1tfLzbQz9l4Dr7-/view?usp=share_link"> Correlation and Regression</a>
 
 ----
 
@@ -82,8 +82,9 @@ Can you identify the top 1 combination of age group, gender, and country that co
 - Interactive Dashboard
 
  ## Dashboard :
- <a href="https://lookerstudio.google.com/reporting/653b8112-1059-42a9-92d2-ebf8ce79b3d5"> Executive Dashboard - Looker Studio</a>
- <a href="https://public.tableau.com/views/W10W11_alfiana_ramdhan_intermediate/SambaDashboard?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link"> Executive Dashboard - Tableau</a>
+1. <a href="https://lookerstudio.google.com/reporting/653b8112-1059-42a9-92d2-ebf8ce79b3d5"> Executive Dashboard - Looker Studio</a>
+
+2. <a href="https://public.tableau.com/views/W10W11_alfiana_ramdhan_intermediate/SambaDashboard?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link"> Executive Dashboard - Tableau</a>
 
 ----
 
