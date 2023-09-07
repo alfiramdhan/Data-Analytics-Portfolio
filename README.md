@@ -69,7 +69,9 @@ Can you identify the top 1 combination of age group, gender, and country that co
 - Cluster Analysis
 
  ## Deck :
- <a href="https://drive.google.com/file/d/17IxAPQefsF958EC9zMwnFTwscWSpDsA_/view?usp=share_link"> Customer Segmentation</a>
+ 1. <a href="https://drive.google.com/file/d/12Bg_y5SJNszHbHkzFcIRQ1Qr9Hi7lYwI/view?usp=share_link"> Customer Segmentation</a>
+
+ 2. <a href="https://drive.google.com/file/d/12Bg_y5SJNszHbHkzFcIRQ1Qr9Hi7lYwI/view?usp=share_link"> Propensity Model and Cost Benefit Analysis</a>
 
 ----
 
@@ -85,8 +87,6 @@ Can you identify the top 1 combination of age group, gender, and country that co
 1. <a href="https://lookerstudio.google.com/reporting/653b8112-1059-42a9-92d2-ebf8ce79b3d5"> Executive Dashboard - Looker Studio</a>
 
 2. <a href="https://public.tableau.com/views/W10W11_alfiana_ramdhan_intermediate/SambaDashboard?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link"> Executive Dashboard - Tableau</a>
-
-3. <a href="https://public.tableau.com/views/W10W11_alfiana_ramdhan_advanced/Dashboard-Map?:language=en-GB&:display_count=n&:origin=viz_share_link"> Transaction Geography - Tableau</a>
 
 ----
 
