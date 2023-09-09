@@ -69,9 +69,9 @@ Can you identify the top 1 combination of age group, gender, and country that co
 - Cluster Analysis
 
  ## Deck :
- 1. <a href="https://drive.google.com/file/d/12Bg_y5SJNszHbHkzFcIRQ1Qr9Hi7lYwI/view?usp=share_link"> Customer Segmentation</a>
+ 1. <a href="https://drive.google.com/file/d/1lr7-CdGvwjA-kRFZnNyaExL8eS5jEuOk/view?usp=share_link"> K-Means Clustering</a>
 
- 2. <a href="https://drive.google.com/file/d/12Bg_y5SJNszHbHkzFcIRQ1Qr9Hi7lYwI/view?usp=share_link"> Propensity Model and Cost Benefit Analysis</a>
+ 2. <a href=""> Propensity Model and Cost Benefit Analysis</a>
 
 ----
 
