@@ -42,14 +42,7 @@ Here is my Portfolio as Data Analyst, please check it out!
 
 5. <a href="https://console.cloud.google.com/bigquery?sq=279153568610:f39461ccd2bf4ce8b3a1fd65d5053f54"> Considering the completed orders that were shipped in the year 2022, which distribution center to which country destination had the highest total number of items sold?</a>
 
-6. <a href="https://console.cloud.google.com/bigquery?sq=279153568610:b45d3f1012094304a47e1fc2e879be49"> Using the completed orders that were shipped in the year 2021 and considering the following age group standards:
-- 17 and below
-- 18 to 24
-- 25 to 34
-- 35 to 54
-- 55 and above
-
-Can you identify the top 1 combination of age group, gender, and country that contributed the highest number of buyers in 2021? How much percentage contribute to all buyers?</a>
+6. <a href="https://console.cloud.google.com/bigquery?sq=279153568610:b45d3f1012094304a47e1fc2e879be49"> Using the completed orders that were shipped in the year 2021 and considering the following age group standards: (17 and below, 18 to 24, 25 to 34, 35 to 54 and 55 and above). Can you identify the top 1 combination of age group, gender, and country that contributed the highest number of buyers in 2021? How much percentage contribute to all buyers?</a>
 
  ## Deck :
  <a href="https://drive.google.com/file/d/1sh7g-aYHkK80zTlfhqZdGR3Fav-RSpwt/view?usp=sharing"> Cohort Analysis</a>
