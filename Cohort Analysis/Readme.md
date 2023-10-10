@@ -41,4 +41,4 @@ Based on these findings, marketing teams need to improve user experience, offer 
 As a data analyst, I provide recommendations that help management make data-driven decisions to improve the company's business performance
 
 ## Deck
-<a href="https://drive.google.com/file/d/1sh7g-aYHkK80zTlfhqZdGR3Fav-RSpwt/view?usp=sharing"> Cohort Analysis</a>
+<a href="https://drive.google.com/file/d/1GNjhJgGc-Zj0Pk2jdi6z3QrBfUY4bf4a/view?usp=share_link"> Cohort Analysis</a>
