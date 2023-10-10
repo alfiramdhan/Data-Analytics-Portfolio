@@ -1,6 +1,9 @@
 # SQL Skill sets:
 - Standard Query Syntax
-- SQL Aggregate Functions;
+- SQL Aggregate Functions
+- SQL Joins
+- SQL Data Type
+- SQL Date Format
 - SQL Window Function
 - CTE
 
