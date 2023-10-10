@@ -4,6 +4,9 @@
 - SQL Window Function
 - CTE
 
+# Entity Relationship Diagram 
+![alt text](https://github.com/alfiramdhan/8Weeks_SQL_Challenge/blob/main/Case%20Study%201%20-%20Danny's%20Dinner/ERD.png)
+
 ## TheLook E-Commerce Analysis
 
 ## Situation
