@@ -55,26 +55,49 @@ ORDER BY
 ----
 
 ## 2. How is the monthly user retention in the past 1 year?
+
+### Steps 1 :
+- Create `CTE` to break up complex queries in BigQuery
+- In first table, we can get the minimum (earliest) truncated month value for each user_id group with the following,
+- Use `DATE()` to extracts the date portion from the created_at column
+- Use `DATE_TRUNC(DATE(created_at), MONTH)` to truncates the date to the beginning of the month
+- Use `MIN(...)` to calculate the minimum value of the expression within the specified window frame
+- Then use `OVER(PARTITION BY user_id)` to define the window frame for the window function. It partitions the data by the user_id column, creating separate groups for each unique user_id
+
 ```sql
 WITH user_activity AS(
  SELECT
       DISTINCT user_id,
-       MIN(DATE_TRUNC(DATE(created_at),MONTH))
-OVER(PARTITION BY user_id) as first_order_date,
+       MIN(DATE_TRUNC(DATE(created_at),MONTH)) OVER(PARTITION BY user_id) as first_order_date,
        DATE_TRUNC(DATE(created_at),MONTH)as running_order_date
- FROM `sql-project-376612.thelook_ecommerce.orders`   
-  WHERE status = 'Complete'
-     AND EXTRACT(YEAR FROM DATE(created_at)) = 2022
+ FROM
+       `sql-project-376612.thelook_ecommerce.orders`   
+WHERE
+       status = 'Complete'
+            AND EXTRACT(YEAR FROM DATE(created_at)) = 2022
 ),
+```
 
+## Step 2 :
+- In second table, we can number of unique customer for each first_order_date group with the following,
+- Use `DATE_DIFF()` to get the difference month
+- Use `COUNT(DISTINCT user_id)` to calculate number of unique customer
+- Use `OVER(PARTITION BY first_order_date)` to define the window frame for the window function. It partitions the data by the user_id column, creating separate groups for each unique user_id
+
+```sql
 cohort_sizes AS(
  SELECT *,
-       DATE_DIFF(running_order_date, first_order_date,month)as
-diff_month,
-       COUNT(DISTINCT user_id)
-OVER(PARTITION BY first_order_date) cohort_size
- FROM user_activity     
+       DATE_DIFF(running_order_date, first_order_date,month) as diff_month,
+       COUNT(DISTINCT user_id) OVER(PARTITION BY first_order_date) cohort_size
+ FROM
+       user_activity     
 ),
+```
+
+## Step 3 :
+- In third table, we can get the number of customer retention by counting number of unique customer
+
+```sql
 retention_table AS(
  SELECT
        first_order_date,
@@ -89,3 +112,4 @@ retention_table AS(
          number_user / cohort_size as pct
  FROM retention_table;
 ```
+----
