@@ -1,3 +1,79 @@
+# EDA
+## 1. Total orders : 124,879
+```SQL
+SELECT COUNT(order_id)as total_order
+FROM `sql-project-376612.thelook_ecommerce.orders`
+```
+
+## 2. Total complete order : 31,234
+```sql
+SELECT COUNT(order_id)as total_order
+FROM `sql-project-376612.thelook_ecommerce.orders`
+WHERE status = 'Complete';
+```
+
+## 3. Total calcelled order : 18,759
+```sql
+SELECT COUNT(order_id)as total_order
+FROM `sql-project-376612.thelook_ecommerce.orders`
+WHERE status = 'Cancelled'
+```
+
+## 4. Considering completed orders and focusing on the month of shipment, which month in the year 2021 had the lowest total order performance for the Jeans category?
+```sql
+SELECT
+       DATE_TRUNC(date(o.shipped_at),month) as month,
+       COUNT(o.order_id)as total_order
+FROM sql-project-376612.thelook_ecommerce.orders o
+LEFT JOIN sql-project-376612.thelook_ecommerce.order_items oi
+         ON o.order_id = oi.order_id
+LEFT JOIN sql-project-376612.thelook_ecommerce.products p
+         ON oi.product_id = p.id
+WHERE o.status = 'Complete'
+         and EXTRACT(YEAR FROM o.shipped_at) = 2021
+           and p.category = 'Jeans'
+GROUP BY 1 
+ORDER BY 2 ASC
+LIMIT 1;
+```
+
+## 5. To retrieve the location with the highest number of buyers (use unique user) who made purchases on our platform during the year 2022, which of the following SQL scripts is correct?
+```sql
+SELECT u.country,
+        COUNT(DISTINCT o.user_id)as number_buyers
+FROM sql-project-376612.thelook_ecommerce.users u
+LEFT JOIN sql-project-376612.thelook_ecommerce.orders o
+        ON u.id = o.user_id
+WHERE EXTRACT(YEAR FROM o.shipped_at) = 2022
+        AND o.status = 'Complete'
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 1;
+```
+
+## 6. Considering the completed orders that were shipped in the year 2022,
+which distribution center to which country destination had the highest total number of items sold?
+```sql
+SELECT dc.name,
+        u.country,
+        SUM(o.num_of_item)as total_item_sold
+FROM sql-project-376612.thelook_ecommerce.orders o
+LEFT JOIN sql-project-376612.thelook_ecommerce.users u
+  ON o.user_id = u.id
+LEFT JOIN sql-project-376612.thelook_ecommerce.order_items oi
+  ON o.order_id = oi.order_id
+LEFT JOIN sql-project-376612.thelook_ecommerce.products p
+  ON oi.product_id = p.id
+LEFT JOIN sql-project-376612.thelook_ecommerce.distribution_centers dc
+  ON p.distribution_center_id = dc.id
+WHERE o.status = 'Complete'
+  AND EXTRACT(YEAR FROM o.shipped_at) = 2022
+GROUP BY 1,2
+ORDER BY 3 DESC
+LIMIT 1;
+```
+
+----
 ## 1. How is the monthly inventory growth trend in percentage by product category in the past 1 year?
 
 ### Steps 1 :
