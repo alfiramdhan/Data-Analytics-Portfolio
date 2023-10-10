@@ -1,6 +1,6 @@
-# 1. How is the monthly inventory growth trend in percentage by product category in the past 1 year?
+## 1. How is the monthly inventory growth trend in percentage by product category in the past 1 year?
 
-## Steps 1 :
+### Steps 1 :
 - Create `CTE` to break up complex queries in BigQuery
 - In first table, we can calculate number of event in inventory in each month each category
 - Use `DATE_TRUNC()` to truncates a month value
@@ -23,7 +23,7 @@ GROUP BY
 ),
 ```
 
-## Steps 2 :
+### Steps 2 :
 - In second table. we get the previous number of event in inventory in each month each category
 - Use window function `LAG()` to get a value of `number_inventory` for a preceding row.
 - Use `OVER (PARTITION BY)` to break `product_category` into separate sections (partitions) by ordering current_inventory in ascending
@@ -41,7 +41,7 @@ FROM
 )
 ```
 
-## Then we can get the monthly growth of inventory by dividing number_inventory by number_inventory_prev from `prev_inventory` table
+### Then we can get the monthly growth of inventory by dividing number_inventory by number_inventory_prev from `prev_inventory` table
 
 ```sql
 SELECT *,
@@ -52,8 +52,9 @@ FROM
 ORDER BY
       product_category, month desc;
 ```
+----
 
-# 2. How is the monthly user retention in the past 1 year?
+## 2. How is the monthly user retention in the past 1 year?
 ```sql
 WITH user_activity AS(
  SELECT
