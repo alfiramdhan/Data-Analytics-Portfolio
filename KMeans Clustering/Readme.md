@@ -7,8 +7,8 @@
 - Analyzing using visualization
 - Cluster Analysis
 
-## RevoBank - Customer Analysis with K-Means Clustering :
-<a href="https://colab.research.google.com/drive/1P4hUoBLUAkVYsrR3NeUQJ6xxGOmBL9V2?usp=sharing"> Cluster Analysis </a>
+## RevoBank - Customer Segmentation using K-Means Clustering :
+<a href="https://colab.research.google.com/drive/1P4hUoBLUAkVYsrR3NeUQJ6xxGOmBL9V2?usp=sharing"> KMeans Clustering </a>
 
 ## Situation
 
@@ -45,4 +45,4 @@ Female customers have a **significant impact on revenue** since they dominate tr
 The analysis results show that promotions via SMS have a positive effect on customer engagement. RevoShop should allocate more efforts towards **sms campaigns to attract customer attention**. So it can lead to increased responses and purchases at RevoShop
 
 # Deck
-<a href="https://drive.google.com/file/d/1GNjhJgGc-Zj0Pk2jdi6z3QrBfUY4bf4a/view?usp=share_link"> Cohort Analysis</a>
+<a href="https://drive.google.com/file/d/1qyLEh7ffM89JBqP5BqNBcGRthj4HR8Yf/view?usp=share_link"> KMeans Clustering</a>
