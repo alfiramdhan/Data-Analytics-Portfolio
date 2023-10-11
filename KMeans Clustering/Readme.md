@@ -8,7 +8,7 @@
 - Cluster Analysis
 
 ## RevoBank - Customer Segmentation using K-Means Clustering :
-<a href="https://colab.research.google.com/drive/1P4hUoBLUAkVYsrR3NeUQJ6xxGOmBL9V2?usp=sharing"> KMeans Clustering </a>
+<a href="https://colab.research.google.com/drive/1P4hUoBLUAkVYsrR3NeUQJ6xxGOmBL9V2?usp=sharing"> Google Colab </a>
 
 ## Situation
 
