@@ -7,42 +7,41 @@
 - Analyzing using visualization
 - Regression Analysis
 
-## RevoBank PayLater Analysis :
+## Revobank Propensity Model & Cost Benefit Analysis :
 <a href="https://colab.research.google.com/drive/1PwxvxIwUFRp4a29qdqVl9gc_-5L4eRZ9?usp=sharing"> Google Colab </a>
 
 ## Situation
 
 ## Background
-RevoBank, a European bank that provides credit cards to its customers.
-Over the last 6 months, Revo bank has implemented new promotions specifically for credit users. This promotion takes the form of distributing Revoshop vouchers, which is one of Revo Bank's partners, to all Revo Bank customers via email and SMS. Customers will receive 15 points equivalent to 1.5 euros for each voucher exchange for eligible transactions. As a data analyst, my role is to provide insight into promo performance in the past 6 months, create customer segmentation and identify business opportunities associated with the customer segmentation.
+For 3 months between February and April 2023, the RevoBank Card Partnership Tribe has successfully implemented the installment feature or PayLater in Revoshop which aims to increase credit card usage. This service allows customers to convert e-commerce transactions into fixed installments with low interest rates.
 
 ## Problem Definition
-When customers are enrolled in a loyalty program, they tend to spend more money on each purchase, because they are incentivized to earn rewards. This increase in spending can lead to a significant increase in revenue for the business. Therefore, after running the promotion for 6 months, the Card Partnership Lead at Revo bank wanted to know spending patterns among Revoshop customers who used Revobank credit cards and looked for ways to reduce promotional costs.
+As a success of this pilot program, the tribe leader plans Project Contact to 30,000 Revoshop customers who have never used the PayLater feature via phone call, offering a welcome bonus of 1000 reward points (worth 100 euros) if they activate and use PayLater for transactions.
+As a data analyst, my role is to develop propensity models that predict which customers are most likely to use PayLater features. Then I can use the model to present a cost-benefit analysis of the project.
 
 ## Objective
-The aim of this project is to provide insight into promo performance in the last 6 months, create customer segmentation and identify business opportunities related to customer segmentation.
+The goal of this project is to build a propensity model to predict which customers are most likely to use PayLater features and perform a cost-benefit analysis to assess the potential impact of Project Contact.
 
 ## Task & Actions
-- Import dataset into Google Colab ->	Use Python libraries including pandas and numpy ->	To load dataset and perform data cleaning
+- Import promotion data and Revobank paylater data into Google Colab	-> Use Python libraries including pandas and numpy	-> To load dataset and perform data cleaning
 
-- Identify dataset -> Use Python libraries including pandas, numpy, seaborn and matplotlib to analyze and visualize data	-> To analyze trends and pattern in promo performance in the last 6 months
+- Identify important columns that can be used for joining, create target variables and create new features ->	Use Python libraries including pandas, numpy, seaborn and matplotlib to analyze and visualize data	-> To prepare data for propensity model
 
-- Create KMeans Clustering ->	Use Python libraries including KMeans, SilhouetteVisualizer	-> To find the segments of customers based on their promo sensitivity and potential to generate revenue
+- Build a model using train data and apply the trained model to the test dataset and evaluate performance	Use python libraries including LogisticRegression and XGBoost Classifier to build model	-> To train data, evaluate the model and identify the most promising pay-later customers
+
+- Combine the model probability and the dataset (30,000 Revoshop customers who have never used the PayLater feature) ->	Use python libraries including LogisticRegression and XGBoost Classifier to build model ->	To apply the model to calculate the probability of customers using the pay-later
+
+- Utilize the benefit-cost analysis template	-> Use spreadsheets	-> To assess the potential impact of project contact
 
 ## Result
-The result of this project, 3 clusters were obtained, namely Satisfied High Shoppers, Moderate Shoppers, and Cautious Shoppers. Based on these findings, 
+The result of this project as follows:
 
-- **Business Opportunity related to Cluster**
-
-There are 3 clusters, where **Moderate Spenders** is a cluster that brings many benefits to Revobank. This cluster will **most likely provide more revenue** to Revobank with higher generated income, greater proportion sensitive to promos and **low promotional costs**
-
-- **Target Female customers**
-
-Female customers have a **significant impact on revenue** since they dominate transactions. RevoShop can increase engagement and drive higher spending among this segment
-
-- **Emphasize SMS communication**
-
-The analysis results show that promotions via SMS have a positive effect on customer engagement. RevoShop should allocate more efforts towards **sms campaigns to attract customer attention**. So it can lead to increased responses and purchases at RevoShop
+- The **XGBoost Classifier** model is quite effective for identifying promising PayLater customers, shown by the High Precision and Decile-Based performance results. However, there is still room for improvement, especially in increasing the actual positive class to improve Recall
+- The model estimates that an average probability of about **58%** of Revoshop's 30,000 customers will activate the PayLater feature. The following is a calculation of the potential impact :
+    1. **Expected Revenue** : The projected revenue from selected top 30,000 customers are estimated 64,978,841 euros
+    2. **Total Cost** : The total cost of implementing Project Contact is 26,231,700 euros including Cost of contacting customers (12,375 euros), Cost of contacting customers and delivery (29,325 euros) and Cost of welcome bonus (261,190,000 euros)
+    3. **Return of Effort (R/E)** : The R/E ratio is calculated by dividing Expected Revenue by Total Costs, the result is 2.48
+- An R/E value of **2.48** indicates that the potential financial benefits (expected income) from Project Contact are 2.48 times higher than the total costs incurred for the effort. This implies that the project is expected to be financially successful, generating a positive return on investment
 
 # Deck
-<a href="https://drive.google.com/file/d/1qyLEh7ffM89JBqP5BqNBcGRthj4HR8Yf/view?usp=share_link"> KMeans Clustering</a>
+<a href="https://drive.google.com/file/d/1DfJyNasWAwlHIxXWPFv3dprj182D9naj/view?usp=share_link"> Propensity Model & Cost Benefit Analysis</a>
