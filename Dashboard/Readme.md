@@ -1,8 +1,3 @@
-# Data Analytics Portfolio
-
-Hi! I'm Alfi
-Here is my Portfolio as Data Analyst, please check it out!
-
 # Skillset Dataviz:
 
 - Connect and combine/ join datasets
