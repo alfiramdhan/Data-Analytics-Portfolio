@@ -12,7 +12,7 @@ Each case study folder contains the following files :
 * [Hypothesis Testing & Regression](https://github.com/alfiramdhan/Data-Analytics-Portfolio/tree/main/Hypothesis%20Testing%20%26%20Regression)
 * [Cohort Analysis](https://github.com/alfiramdhan/Data-Analytics-Portfolio/tree/main/Cohort%20Analysis)
 * [KMeans Clustering](https://github.com/alfiramdhan/Data-Analytics-Portfolio/tree/main/KMeans%20Clustering)
-* [Propensity Model & Cost Benefit Analysis](https://github.com/alfiramdhan/Data-Analytics-Portfolio/tree/main/Propensity%20Model%20%26%20Cost%20Benefit%20Analysis)
+* [Linear Regression](https://github.com/alfiramdhan/Data-Analytics-Portfolio/tree/main/Linear%20Regression)
 * [Dashboard](https://github.com/alfiramdhan/Data-Analytics-Portfolio/tree/main/Dashboard)
 
 ***
