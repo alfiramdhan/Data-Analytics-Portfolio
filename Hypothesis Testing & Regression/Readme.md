@@ -9,6 +9,6 @@
 
  ## Deck :
 
- 1. <a href="https://drive.google.com/file/d/1Oewf1lhiaLN-LgNV4WQcMZqVAuMMZMRo/view?usp=share_link"> A/B Hypothesis Testing on Purchase Value</a>
+ 1. <a href="https://drive.google.com/file/d/1bhtPq9I4gkMr5xdgF_Ix6LXeorWNiebU/view?usp=share_link"> A/B Hypothesis Testing on Purchase Value</a>
 
  2. <a href="https://drive.google.com/file/d/1fEVGO1EbcUoY1nMmL1tfLzbQz9l4Dr7-/view?usp=share_link"> Correlation and Regression</a>
