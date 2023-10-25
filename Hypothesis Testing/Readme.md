@@ -54,4 +54,4 @@ further on what variables are influencing Adibi amount spent. Therefore, regress
 
  ## Deck :
 
-<a href="https://drive.google.com/file/d/1C-4KcRwjtjp0ikeaDHtqtXNL8hzK8KO0/view?usp=share_link"> A/B Hypothesis Testing on Purchase Value</a>
+<a href="https://drive.google.com/file/d/1HSxIHyvCM-87c-O_prhnYnC4WEbTXYvK/view?usp=share_link"> A/B Hypothesis Testing on Purchase Value</a>
