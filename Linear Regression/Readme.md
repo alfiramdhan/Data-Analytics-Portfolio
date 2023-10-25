@@ -43,4 +43,4 @@ understand which variables influence Adibi's order value
 - Because Cellina has influence on the value of Adibi's orders, we can hold promotions or collaborate with Cellina so that their products complement each other
 
 ## Deck
-<a href="https://drive.google.com/file/d/1DLidJoPKoXN3lh1Vy5N0K1CUzrKEBaCf/view?usp=sharing"> Predicting The Value of Order using Linear Regression </a>
+<a href="https://drive.google.com/file/d/1Vj_k0oT1h2uuI0rll7AWigth7_x2DUm9/view?usp=share_link"> Predicting The Value of Order using Linear Regression </a>
