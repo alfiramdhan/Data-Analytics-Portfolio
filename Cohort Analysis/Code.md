@@ -1,25 +1,25 @@
 # EDA
-## 1. Total orders : 124,879
+### 1. Total orders : 124,879
 ```SQL
 SELECT COUNT(order_id)as total_order
 FROM `sql-project-376612.thelook_ecommerce.orders`
 ```
 
-## 2. Total complete order : 31,234
+### 2. Total complete order : 31,234
 ```sql
 SELECT COUNT(order_id)as total_order
 FROM `sql-project-376612.thelook_ecommerce.orders`
 WHERE status = 'Complete';
 ```
 
-## 3. Total calcelled order : 18,759
+### 3. Total calcelled order : 18,759
 ```sql
 SELECT COUNT(order_id)as total_order
 FROM `sql-project-376612.thelook_ecommerce.orders`
 WHERE status = 'Cancelled'
 ```
 
-## 4. Considering completed orders and focusing on the month of shipment, which month in the year 2021 had the lowest total order performance for the Jeans category?
+### 4. Considering completed orders and focusing on the month of shipment, which month in the year 2021 had the lowest total order performance for the Jeans category?
 ```sql
 SELECT
        DATE_TRUNC(date(o.shipped_at),month) as month,
@@ -37,7 +37,7 @@ ORDER BY 2 ASC
 LIMIT 1;
 ```
 
-## 5. To retrieve the location with the highest number of buyers (use unique user) who made purchases on our platform during the year 2022, which of the following SQL scripts is correct?
+### 5. To retrieve the location with the highest number of buyers (use unique user) who made purchases on our platform during the year 2022, which of the following SQL scripts is correct?
 ```sql
 SELECT u.country,
         COUNT(DISTINCT o.user_id)as number_buyers
@@ -51,7 +51,7 @@ ORDER BY 2 DESC
 LIMIT 1;
 ```
 
-## 6. Considering the completed orders that were shipped in the year 2022,
+### 6. Considering the completed orders that were shipped in the year 2022,
 which distribution center to which country destination had the highest total number of items sold?
 ```sql
 SELECT dc.name,
@@ -74,6 +74,8 @@ LIMIT 1;
 ```
 
 ----
+
+# Monthly Inventory
 ## 1. How is the monthly inventory growth trend in percentage by product category in the past 1 year?
 
 ### Steps 1 :
@@ -129,6 +131,8 @@ ORDER BY
       product_category, month desc;
 ```
 ----
+
+# Cohort Analysis
 
 ## 2. How is the monthly user retention in the past 1 year?
 
